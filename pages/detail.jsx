@@ -10,7 +10,7 @@ const Detail = () => {
             <main className='relative'>
                 <section className='rounded-2xl'>
                     <Image className='rounded-2xl' src="/map.png"
-                        height={370} width={370} responsive alt={'Map'} />
+                        height={370} width={370} responsive="true" alt={'Map'} />
                 </section>
                 <section className='mt-6 text-center flex flex-col 
                 items-center justify-center'>
@@ -31,7 +31,7 @@ const Detail = () => {
                         </div>
                     </div>
                 </section>
-                <section className='flex gap-3 mt-5'>
+                <section className='flex gap-3 mt-6'>
                     <article className='flex-1 bg-white p-6 rounded-2xl flex flex-col 
                     justify-center items-center gap-4 lighter_neu'>
                         <div className='bg-red inline-flex py-2 px-4 rounded-md w-fit'>
@@ -55,17 +55,13 @@ const Detail = () => {
                         </div>
                     </article>
                 </section>
-                <section className='flex mt-14 justify-between items-center'>
-                    <div>
-                        <Link href={'/'}>
-                            <a className='font-bold text-lg flash_dark 
-                            text-white px-16 py-3 rounded-2xl tr'>Terug</a>
-                        </Link>
-                    </div>
-                    <div>
-                        <button className='px-16 py-3 flash_red rounded-2xl 
-                        text-white font-bold'>Finish</button>
-                    </div>
+                <section className='flex mt-14 justify-center items-center gap-3'>
+                    <Link href={'/'}>
+                        <a className='font-semibold flash_dark text-base
+                            text-white px-16 py-3 rounded-2xl flex-1 w-full'>Terug</a>
+                    </Link>
+                    <button className='px-16 py-3 flash_red rounded-2xl 
+                        text-white font-semibold w-full flex-1'>Finish</button>
                 </section>
             </main>
         </>

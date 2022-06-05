@@ -44,7 +44,7 @@ header {
 }
 
 .cards {
-  @apply flex gap-3 overflow-x-clip;
+  @apply flex gap-3 overflow-x-hidden relative pb-5;
 }
 
 .card {
@@ -80,14 +80,14 @@ input {
 }
 
 .week_circles {
-  @apply flex justify-around md:justify-start md:gap-5;
+  @apply flex justify-center gap-5 md:justify-start;
 }
 
 .nue_circle_outer {
   @apply flex flex-col justify-center items-center;
 
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   border-radius: 25px;
   background: linear-gradient(145deg, #ebeaed, #ffffff);
   box-shadow: 5px 5px 10px #d4d3d7, -5px -5px 10px #ffffff;

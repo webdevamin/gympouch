@@ -17,26 +17,26 @@ const Index = () => {
             </div>
           </div>
         </section>
-        <section className='mb-10'>
+        <section className='mb-9'>
           <div className='heading'>
             <h2>Deze week</h2>
           </div>
           <div className='week_circles'>
             <div className='nue_circle_outer'>
               <h2 className='font-extrabold text-2xl text-red'>4</h2>
-              <small className='text-xxs text-lightdark'>Aantal</small>
+              <small className='text-xs text-lightdark font-medium'>Aantal</small>
             </div>
             <div className='nue_circle_outer'>
-              <h2 className='font-extrabold text-xl text-purple'>4&rsquo;30</h2>
-              <small className='text-lightdark font-medium text-xxs'>Duur</small>
+              <h2 className='font-extrabold text-2xl text-purple'>4&rsquo;30</h2>
+              <small className='text-lightdark font-medium text-xs'>Duur</small>
             </div>
             <div className='nue_circle_outer'>
-              <h2 className='font-extrabold text-xl text-deep_blue'>+30</h2>
-              <small className='text-lightdark font-medium text-xxs'>Verschil</small>
+              <h2 className='font-extrabold text-2xl text-deep_blue'>+30</h2>
+              <small className='text-lightdark font-medium text-xs'>Verschil</small>
             </div>
           </div>
         </section>
-        <section className='mb-10'>
+        <section className='mb-4'>
           <div className='heading'>
             <h2>Recent</h2>
             <span className='font-medium text-lightdark text-sm'>Bekijk meer</span>
