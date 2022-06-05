@@ -127,3 +127,7 @@ input {
   background: linear-gradient(145deg, #ebeaee, #ffffff);
   box-shadow: 5px 5px 10px #d4d3d7, -5px -5px 10px #ffffff;
 }
+
+.detail_mw {
+  max-width: 250px;
+}

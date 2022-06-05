@@ -8,7 +8,7 @@ const Detail = () => {
         <>
             <Header title={"Liesbeth Roels"} />
             <main className='relative'>
-                <section className='rounded-2xl'>
+                <section className='rounded-2xl text-center'>
                     <Image className='rounded-2xl' src="/map.png"
                         height={370} width={370} responsive="true" alt={'Map'} />
                 </section>
@@ -31,8 +31,8 @@ const Detail = () => {
                         </div>
                     </div>
                 </section>
-                <section className='flex gap-3 mt-6'>
-                    <article className='flex-1 bg-white p-6 rounded-2xl flex flex-col 
+                <section className='flex gap-3 mt-6 justify-center'>
+                    <article className='flex-1 detail_mw bg-white p-6 rounded-2xl flex flex-col 
                     justify-center items-center gap-4 lighter_neu'>
                         <div className='bg-red inline-flex py-2 px-4 rounded-md w-fit'>
                             <Image src="/clock-white.svg"
@@ -43,7 +43,7 @@ const Detail = () => {
                             <p className='text-gray'>1u - 1u30</p>
                         </div>
                     </article>
-                    <article className='flex-1 bg-white p-6 rounded-2xl flex flex-col 
+                    <article className='flex-1 detail_mw bg-white p-6 rounded-2xl flex flex-col 
                     justify-center items-center gap-4 lighter_neu'>
                         <div className='bg-red inline-flex py-2 px-4 rounded-md w-fit'>
                             <Image src="/dollar-sign-white.svg"
@@ -57,7 +57,7 @@ const Detail = () => {
                 </section>
                 <section className='flex mt-14 justify-center items-center gap-3'>
                     <Link href={'/'}>
-                        <a className='font-semibold flash_dark text-base
+                        <a className='font-semibold flash_dark text-base text-center
                             text-white px-16 py-3 rounded-2xl flex-1 w-full'>Terug</a>
                     </Link>
                     <button className='px-16 py-3 flash_red rounded-2xl 
