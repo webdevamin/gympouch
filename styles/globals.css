@@ -45,6 +45,7 @@ header {
 
 .cards {
   @apply flex gap-3 overflow-x-hidden relative pb-5;
+  margin-right: -1.5rem;
 }
 
 .card {
@@ -80,7 +81,7 @@ input {
 }
 
 .week_circles {
-  @apply flex justify-center gap-5 md:justify-start;
+  @apply flex justify-center gap-3 md:justify-start;
 }
 
 .nue_circle_outer {
